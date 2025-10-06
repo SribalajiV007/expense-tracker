@@ -13,7 +13,7 @@ public class ExpenseService {
 
     //add a new expense
     public void addExpense(Expense expense){
-        this.expenses = expenses;
+        expenses.add(expense);
         System.out.println("Expense added succesfully");
     }
 

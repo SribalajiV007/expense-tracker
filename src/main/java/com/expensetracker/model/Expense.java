@@ -22,7 +22,7 @@ public class Expense {
     public String getDesription(){ return description; }
     public double getAmount(){ return amount; }
     public LocalDate getDate() { return date; }
-    public Category getCategory(Category category) { return category; }
+    public Category getCategory() { return category; }
 
     public void setDescription(String description){ this.description = description; }
     public void setAmount(double amount) { this.amount = amount; }
